@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinfonia Verde: Campo & Cidade Conectados pelo Futuro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <meta name="description" content="Descubra a revolução da tecnologia verde que une campo e cidade, impulsionando a agricultura e construindo um futuro sustentável com inteligência artificial.">
+    <meta name="keywords" content="campo, cidade, tecnologia, inteligência artificial, agricultura, sustentabilidade, inovação, conexão, agronegócio, futuro">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="hero">
+        <video autoplay muted loop playsinline id="heroVideo" class="hero-video">
+            <source src="assets/video-hero.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content animate__animated animate__fadeInUp">
+            <h1 data-splitting>Sinfonia Verde</h1>
+            <h2 data-splitting>O Campo & A Cidade: Cultivando o Futuro com Inovação</h2>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">Junte-se a nós nesta jornada onde a **Inteligência Artificial** e a **tecnologia** florescem, unindo raízes e construindo um amanhã mais **próspero e sustentável** para todos. Um convite à conexão.</p>
+            <a href="#about" class="btn-primary animate__animated animate__pulse animate__infinite animate__delay-2s" aria-label="Explore a conexão entre campo e cidade">Explore Esta Conexão <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo" aria-label="Voltar ao início">Campo & Cidade <span class="logo-highlight">Conectados</span></a>
+            <ul class="nav-links">
+                <li><a href="#about" data-text="Sobre">Sobre</a></li>
+                <li><a href="#ia-agri" data-text="IA na Agricultura">IA na Agricultura</a></li>
+                <li><a href="#conexao" data-text="Conexão Digital">Conexão Digital</a></li>
+                <li><a href="#stats" data-text="Nosso Impacto">Nosso Impacto</a></li>
+                <li><a href="#future" data-text="O Futuro">O Futuro</a></li>
+                <li><a href="#contact" data-text="Contato">Contato</a></li>
+            </ul>
+            <div class="burger-menu" onclick="toggleMenu()" aria-label="Abrir menu de navegação">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about" class="section-container about-section">
+            <div class="content-wrapper scroll-reveal">
+                <div class="text-content animate__animated animate__fadeInLeft">
+                    <h2>Uma **Sinfonia** de Progresso: Campo e Cidade em Harmonia</h2>
+                    <p>Historicamente, campo e cidade foram percebidos como mundos distintos, separados por paisagens e estilos de vida. Contudo, na era digital, essa divisão dissolve-se, e emerge uma **sinfonia harmoniosa** onde ambos se completam e se impulsionam mutuamente. É uma dança de **interdependência**, onde a inovação urbana encontra a resiliência rural, criando um ciclo virtuoso de crescimento e sustentabilidade.</p>
+                    <p>A tecnologia não é apenas uma ferramenta; ela é a **maestro** desta orquestra, tecendo uma complexa rede de conexões que garantem que a vitalidade do campo floresça com a inteligência da cidade. Das sementes que brotam com precisão otimizada aos alimentos que chegam frescos à sua mesa, essa união define o **futuro** que estamos construindo juntos.</p>
+                </div>
+                <div class="image-content animate__animated animate__fadeInRight">
+                    <img src="assets/img-about.jpg" alt="Cidade e Campo Conectados em uma paisagem verde" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section id="ia-agri" class="section-container ia-agri-section bg-light">
+            <div class="content-wrapper reverse-layout scroll-reveal">
+                <div class="text-content animate__animated animate__fadeInRight">
+                    <h2>**Inteligência Artificial:** A Colheita do Futuro Sustentável</h2>
+                    <p>A Inteligência Artificial não apenas revoluciona a agricultura; ela a **redefine**. Imagine campos que se autorregulam, onde cada planta recebe exatamente o que precisa, e máquinas trabalham em perfeita sintonia com a natureza. Isso não é ficção científica, é a **realidade** que a IA nos oferece: uma agricultura mais precisa, produtiva e, crucialmente, **sustentável**.</p>
+                    <div class="feature-grid">
+                        <div class="feature-item">
+                            <i class="fas fa-robot animate__animated animate__bounceIn"></i>
+                            <h3>Monitoramento Inteligente</h3>
+                            <p>Drones e sensores com IA patrulham os campos, identificando pragas, doenças e deficiências nutricionais antes que se tornem problemas, protegendo a colheita.</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-water animate__animated animate__bounceIn animate__delay-0-1s"></i>
+                            <h3>Irrigação de Precisão</h3>
+                            <p>Sistemas autônomos calculam e entregam a quantidade exata de água, gota a gota, combatendo o desperdício e maximizando a eficiência hídrica.</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-tractor animate__animated animate__bounceIn animate__delay-0-2s"></i>
+                            <h3>Automação Rural</h3>
+                            <p>Tratores e equipamentos autônomos realizam tarefas complexas com precisão milimétrica, liberando o agricultor para focar em estratégias e inovação.</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-chart-line animate__animated animate__bounceIn animate__delay-0-3s"></i>
+                            <h3>Análise Preditiva Avançada</h3>
+                            <p>Algoritmos preveem o melhor momento para plantar, colher e intervir, transformando dados em decisões estratégicas para um rendimento otimizado.</p>
+                        </div>
+                    </div>
+                    <p>Essas inovações não são apenas sobre produtividade; são sobre uma agricultura **mais inteligente, mais verde e mais resiliente**, construindo um legado de abundância para as futuras gerações.</p>
+                </div>
+                <div class="image-content animate__animated animate__fadeInLeft">
+                    <img src="assets/img-ia-agri.jpg" alt="Robô autônomo trabalhando em uma plantação com monitoramento de dados" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section id="conexao" class="section-container conexao-section">
+            <div class="content-wrapper scroll-reveal">
+                <div class="text-content animate__animated animate__fadeInLeft">
+                    <h2>**Pontes Digitais:** Conectando Corações e Mesas</h2>
+                    <p>A tecnologia transcende a mera otimização da produção; ela atua como um **elo invisível e poderoso** que une o coração do campo ao vibrante ritmo da cidade. Graças a plataformas digitais inovadoras, o produtor rural pode vender seus produtos diretamente ao consumidor urbano, eliminando intermediários e garantindo a **transparência e a frescura** que todos desejam.</p>
+                    <p>Mas a conexão vai além do alimento. A internet leva **educação, saúde e oportunidades** de negócios para as comunidades rurais, combatendo o êxodo e fortalecendo o tecido social. Aplicativos de logística inteligentes otimizam o transporte, reduzindo o tempo de entrega e o desperdício, assegurando que o sabor do campo chegue à sua mesa com a **máxima qualidade e rapidez**.</p>
+                    <p>Com a **rastreabilidade digital** – impulsionada por tecnologias como blockchain – você pode conhecer a jornada completa do seu alimento, desde a fazenda até o seu prato. É a celebração da confiança, do respeito ao trabalho do agricultor e da promessa de um futuro onde a **proximidade digital** redefine nossas comunidades.</p>
+                </div>
+                <div class="image-content animate__animated animate__fadeInRight">
+                    <img src="assets/img-conexao.jpg" alt="Diagrama de conexão digital entre fazenda e cidade com ícones de tecnologia" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" class="section-container stats-section bg-light">
+            <div class="container">
+                <h2 class="animate__animated animate__fadeInUp">Nosso **Impacto em Números**: Cultivando Progresso</h2>
+                <div class="stats-grid">
+                    <div class="stat-item animate__animated animate__zoomIn" data-target="98">
+                        <i class="fas fa-seedling"></i>
+                        <span class="counter">0</span><span class="suffix">%</span>
+                        <h3>Aumento de Produtividade</h3>
+                        <p>Com o uso inteligente de dados e recursos.</p>
+                    </div>
+                    <div class="stat-item animate__animated animate__zoomIn" data-target="75">
+                        <i class="fas fa-tint"></i>
+                        <span class="counter">0</span><span class="suffix">%</span>
+                        <h3>Economia Hídrica</h3>
+                        <p>Através de irrigação precisa e monitoramento.</p>
+                    </div>
+                    <div class="stat-item animate__animated animate__zoomIn" data-target="85">
+                        <i class="fas fa-truck-loading"></i>
+                        <span class="counter">0</span><span class="suffix">%</span>
+                        <h3>Redução de Desperdício</h3>
+                        <p>Na cadeia de valor, do campo à cidade.</p>
+                    </div>
+                    <div class="stat-item animate__animated animate__zoomIn" data-target="100">
+                        <i class="fas fa-users-gear"></i>
+                        <span class="counter">0</span><span class="suffix">%</span>
+                        <h3>Conexão e Transparência</h3>
+                        <p>Entre produtores e consumidores em todo o processo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="future" class="section-container future-section">
+            <div class="content-wrapper reverse-layout scroll-reveal">
+                <div class="text-content animate__animated animate__fadeInRight">
+                    <h2>O **Futuro Sustentável:** Inovação Sem Limites</h2>
+                    <p>O horizonte da conexão entre campo e cidade é um convite à imaginação, um futuro onde a inovação é a semente de um mundo mais justo e abundante. Com o avanço imparável da tecnologia e da inteligência artificial, podemos vislumbrar um ecossistema onde a prosperidade rural e a vitalidade urbana se entrelaçam de forma inédita.</p>
+                    <div class="future-items">
+                        <div class="future-item">
+                            <i class="fas fa-leaf-heart"></i>
+                            <h4>Agricultura Regenerativa</h4>
+                            <p>Técnicas que restauram a saúde do solo, promovem a biodiversidade e sequestram carbono, garantindo alimentos nutritivos e um planeta mais saudável.</p>
+                        </div>
+                        <div class="future-item">
+                            <i class="fas fa-dna"></i>
+                            <h4>Biotecnologia e Genômica</h4>
+                            <p>Cultivos mais resistentes, nutritivos e adaptados às mudanças climáticas, tudo com o apoio de tecnologias avançadas de bioengenharia.</p>
+                        </div>
+                        <div class="future-item">
+                            <i class="fas fa-solar-panel"></i>
+                            <h4>Energia Limpa no Campo</h4>
+                            <p>Fazendas autossuficientes em energia, utilizando fontes renováveis e contribuindo para uma matriz energética mais verde.</p>
+                        </div>
+                        <div class="future-item">
+                            <i class="fas fa-building-user"></i>
+                            <h4>Cidades Verdes Inteligentes</h4>
+                            <p>Projetos de agricultura urbana, telhados comestíveis e hortas comunitárias que trazem a produção para o coração das metrópoles, encurtando distâncias.</p>
+                        </div>
+                    </div>
+                    <p>Esta é uma jornada de cocriação, onde cada avanço tecnológico nos aproxima de um futuro onde a natureza e a inovação humana convivem em perfeita **harmonia**. Estamos cultivando não apenas alimentos, mas um legado de **sustentabilidade e prosperidade** para as gerações que virão.</p>
+                </div>
+                <div class="image-content animate__animated animate__fadeInLeft">
+                    <img src="assets/img-future.jpg" alt="Cidades inteligentes com agricultura vertical e energia renovável" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section bg-dark">
+            <div class="container">
+                <h2 class="animate__animated animate__fadeInUp">Histórias de Sucesso: **Vozes da Conexão**</h2>
+                <div class="testimonial-carousel" id="testimonialCarousel">
+                    <div class="testimonial-item active">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Ver a tecnologia florescer em nossa fazenda e nos conectar diretamente com consumidores da cidade é algo que eu jamais imaginei. É um futuro que nos enche de esperança!"</p>
+                        <h4>- Sra. Benedita, Agricultora Familiar</h4>
+                        <span class="testimonial-source">Fazenda Sol Nascente, PR</span>
+                    </div>
+                    <div class="testimonial-item">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Comprar alimentos sabendo exatamente de onde vêm e quem os produziu é um privilégio. Essa ponte digital nos devolveu a confiança na origem e no sabor genuíno."</p>
+                        <h4>- Clara Mendes, Chef e Consumidora Consciente</h4>
+                        <span class="testimonial-source">Curitiba, PR</span>
+                    </div>
+                    <div class="testimonial-item">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"A inovação em agrotech que estamos testemunhando é um marco. A IA não é apenas eficiente, é um catalisador para um futuro agrícola mais verde e prálitico."</p>
+                        <h4>- Dr. Ricardo Silva, Pesquisador em Agrotecnologia</h4>
+                        <span class="testimonial-source">Universidade Federal do Paraná</span>
+                    </div>
+                </div>
+                <div class="carousel-nav">
+                    <span class="dot active" onclick="currentSlide(1)" aria-label="Depoimento 1"></span>
+                    <span class="dot" onclick="currentSlide(2)" aria-label="Depoimento 2"></span>
+                    <span class="dot" onclick="currentSlide(3)" aria-label="Depoimento 3"></span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col logo-col">
+                    <a href="#" class="logo-footer">Sinfonia Verde</a>
+                    <p>Cultivando o futuro, unindo o campo e a cidade.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col nav-col">
+                    <h3>Navegação Rápida</h3>
+                    <ul>
+                        <li><a href="#about">Sobre a Conexão</a></li>
+                        <li><a href="#ia-agri">IA no Campo</a></li>
+                        <li><a href="#conexao">Nossas Pontes Digitais</a></li>
+                        <li><a href="#stats">Impacto e Resultados</a></li>
+                        <li><a href="#future">Visão de Futuro</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col contact-col" id="contact">
+                    <h3>Fale Conosco</h3>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:contato@sinfoniaverde.com">contato@sinfoniaverde.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+5541987654321">(41) 98765-4321</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> São José dos Pinhais, PR, Brasil</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 **Sinfonia Verde**. Todos os direitos reservados. | Desenvolvido com paixão e inovação.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
