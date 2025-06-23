@@ -1,1 +1,1 @@
-utilizei o gemini
+utilizei o "gemini" IA do google
