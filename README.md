@@ -1,0 +1,1 @@
+utilizei o gemini
